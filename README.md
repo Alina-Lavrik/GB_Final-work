@@ -42,7 +42,7 @@ dpkg -p vivaldi-stable_6.2.3105.54-1_amd64
 
 ![Alt text](Diagram.jpg)
 
-7. Вподключенном MySQL репозитории создать базуданных “Друзья человека”
+7. В подключенном MySQL репозитории создать базу данных “Друзья человека”
 
  CREATE DATABASE IF NOT EXISTS human_friends; \
  USE human_friends; 
